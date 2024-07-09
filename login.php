@@ -7,10 +7,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = $_POST['password'];
 
     // database connection
-    $host = "viaduct.proxy.rlwy.net";
-    $port = "15977";
+    $host = "monorail.proxy.rlwy.net";
+    $port = "13800";
     $dbusername = "root";
-    $dbpassword = "MJWtEzHqhaWKvUheNMyWwXICaoWtbkoh";
+    $dbpassword = "ZTXjjFSYeeyKnYUIRtdZfQgsPnRQaAON";
     $dbname = "railway";
 
     $conn = new mysqli($host, $dbusername, $dbpassword, $dbname, $port);
